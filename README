@@ -1,0 +1,55 @@
+# EduGenie – Google Gemini Powered Learning Assistant
+
+EduGenie is an AI-powered educational assistant designed to help students learn concepts, ask questions, generate quizzes, summarize content, and create personalized learning paths.
+
+The application uses a FastAPI backend, HTML/CSS frontend, Google Gemini API, and an optional local LaMini-Flan-T5 model for concept explanations.
+
+---
+
+## Features
+
+EduGenie provides the following features:
+
+- Ask educational questions
+- Explain difficult concepts in simple language
+- Generate multiple-choice quizzes
+- Summarize long text
+- Generate personalized learning paths
+- Responsive web interface
+- Google Gemini API integration
+- Optional local AI model for explanations
+- FastAPI REST API
+- Interactive quiz interface
+- API documentation using Swagger UI
+
+---
+
+## Project Structure
+
+```text
+EduGenie/
+│
+├── main.py
+├── config.py
+├── gemini_client.py
+├── qna.py
+├── explanation_module.py
+├── quiz_module.py
+├── summary_module.py
+├── learning_path.py
+│
+├── requirements.txt
+├── .env
+├── .env.example
+├── .gitignore
+├── README.md
+├── LICENSE
+│
+├── templates/
+│   └── index.html
+│
+├── static/
+│   └── style.css
+│
+└── tests/
+    └── test_api.py
